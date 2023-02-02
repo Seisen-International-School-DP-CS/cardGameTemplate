@@ -1,6 +1,6 @@
 # Tara Matuszek
 # Dealing Cards
-# Feb 2, 2023
+# Feb 2, 2023 -- NEW UPDATE
 
 """
 This program deals cards out to players from a deck.
