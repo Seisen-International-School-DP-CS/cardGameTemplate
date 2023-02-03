@@ -12,11 +12,10 @@ a round, the deck is reshuffled before dealing cards that round.
 
 # Setup
 import random
-print()
 
 def newDeal():
     '''
-    This functionis to reset to a full deck of cards.
+    This function is to reset to a full deck of cards.
     :return: a list containg the 52 cards in a standard deck as strings with the number follwed by suit icon
     '''
     deck = [
@@ -27,6 +26,7 @@ def newDeal():
     ]
     # ADD CODE HERE
     return deck
+
 
 def dealHand(currentDeck, numCards = 5):
     '''
