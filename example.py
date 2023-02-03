@@ -34,8 +34,6 @@ def newDeal():
     deck = [card for card in deck if card != deck[num]]
     print(deck)
     # print the list again
-    num = random.randint(0, len(deck))
-    print(deck[num] + "  " + str(num))
 
 
 def dealHand(currentDeck, numCards = 5):
