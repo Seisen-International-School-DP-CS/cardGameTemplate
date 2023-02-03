@@ -30,14 +30,16 @@ def newDeal():
 
 def dealHand(currentDeck, numCards = 5):
     '''
-    This function will deal out a hand of cards for a player.
-    :param currentDeck: a list containing all cards currently left in the deck
+    This function will deal out a hand of cards for a play container.
+    :param currentDeck: a list all cards currently left in the deck
     :param numCards: the number of cards to include in this players' hand
     :return:
         hand - a list containing the cards dealt
         currentDeck - an updated list containing all cards still left in the deck
     '''
     # ADD CODE HERE
+
+
 
 
 def startGame(numPlayers = 2, numCards = 5):
@@ -53,3 +55,5 @@ def startGame(numPlayers = 2, numCards = 5):
    #
 
 # ADD CODE HERE (Should be only 3 lines)
+numPlayers = int(input("How many players?: "))
+numCards = int(input("How many cards do you want?"))
