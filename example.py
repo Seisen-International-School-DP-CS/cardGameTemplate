@@ -48,6 +48,7 @@ def startGame(numPlayers = 2, numCards = 5):
     :param numCards: the number of cards each player receives during each round
     '''
    # ADD CODE HERE
+   # newDeal()
 
 
 # ADD CODE HERE (Should be only 3 lines)
