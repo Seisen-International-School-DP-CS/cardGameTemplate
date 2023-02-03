@@ -25,7 +25,8 @@ def newDeal():
         "A♣️", "2♣️", "3♣️", "4♣️", "5♣️", "6♣️", "7♣️", "8♣️", "9♣️", "10♣️", "J♣️", "Q♣️", "K♣️",
     ]
     # return deck of cards
-    
+    num = random.randint(0, len(deck))
+    print(deck[num] + "  " + str(num))
 
 
 def dealHand(currentDeck, numCards = 5):
