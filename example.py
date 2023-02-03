@@ -30,7 +30,7 @@ def newDeal():
 
 def dealHand(currentDeck, numCards = 5):
     '''
-    This function will deal out a hand of cards for a play container.
+    This function will deal out a hand of cards for a play container.　for a person
     :param currentDeck: a list all cards currently left in the deck
     :param numCards: the number of cards to include in this players' hand
     :return:
@@ -39,8 +39,10 @@ def dealHand(currentDeck, numCards = 5):
     '''
     # ADD CODE HERE
 
-
-
+for x in range (0,numCards):
+    Removed = random.randint(0, len(deck))
+    Remove = numCards - Removed
+    print(Remove)
 
 def startGame(numPlayers = 2, numCards = 5):
     '''
