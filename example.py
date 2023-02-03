@@ -16,8 +16,8 @@ Hello
 
 def newDeal():
     '''
-    This functionis to reset to a full deck of cards.
-    :return: a list containg the 52 cards in a standard deck as strings with the number follwed by suit icon
+    This function is to reset to a full deck of cards.
+    :return: a list containing the 52 cards in a standard deck as strings with the number followed by suit icon
     '''
     deck = [
         "A♥️", "2♥️", "3♥️", "4♥️", "5♥️", "6♥️", "7♥️", "8♥️", "9♥️", "10♥️", "J♥️", "Q♥️", "K♥️",
