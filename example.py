@@ -1,6 +1,6 @@
 # Tara Matuszek
 # Dealing Cards
-# Feb 2, 2023
+# Feb 2, 2023 -- NEW UPDATE
 
 """
 This program deals cards out to players from a deck.
@@ -48,6 +48,7 @@ def startGame(numPlayers = 2, numCards = 5):
     :param numCards: the number of cards each player receives during each round
     '''
    # ADD CODE HERE
+checking if github shows this commit right away
 
 
 # ADD CODE HERE (Should be only 3 lines)
