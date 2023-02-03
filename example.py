@@ -41,7 +41,7 @@ def dealHand(currentDeck, numCards = 5):
 
 for x in range (0,numCards):
     Removed = random.randint(0, len(deck))
-    Remove = numCards - Removed
+    Remove = deck - Removed
     print(Remove)
 
 def startGame(numPlayers = 2, numCards = 5):
