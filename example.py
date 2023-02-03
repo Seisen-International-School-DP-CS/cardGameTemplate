@@ -25,6 +25,15 @@ def newDeal():
         "A♣️", "2♣️", "3♣️", "4♣️", "5♣️", "6♣️", "7♣️", "8♣️", "9♣️", "10♣️", "J♣️", "Q♣️", "K♣️",
     ]
     # return deck of cards
+    print(deck)
+
+    # generate a random number (& print that item)
+    num = random.randint(0, len(deck))
+    print(deck[num])
+    # remove the item from the list again
+    deck = [card for card in deck if card != deck[num]]
+    print(deck)
+    # print the list again
     num = random.randint(0, len(deck))
     print(deck[num] + "  " + str(num))
 
@@ -49,8 +58,8 @@ def startGame(numPlayers = 2, numCards = 5):
     :param numPlayers: the number of players in this card game
     :param numCards: the number of cards each player receives during each round
     '''
-   # deck for (0:51)
-    def Reset(deck <= 51):
+   deck = newDeck()
+    def Reset(deck < 10):
    input("Is the game over?y/n");
    while y,
        input("Does the deck have 52 cards?y/n");
