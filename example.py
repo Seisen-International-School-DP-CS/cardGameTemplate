@@ -31,7 +31,7 @@ def newDeal():
     num = random.randint(0, len(deck))
     print(deck[num])
     # remove the item from the list again
-    deck = [card for card in deck if card != deck[num]]
+    deck.remove = num
     print(deck)
     # print the list again
 
