@@ -12,7 +12,6 @@ a round, the deck is reshuffled before dealing cards that round.
 
 # Setup
 import random
-Hello
 
 def newDeal():
     '''
@@ -26,6 +25,7 @@ def newDeal():
         "A♣️", "2♣️", "3♣️", "4♣️", "5♣️", "6♣️", "7♣️", "8♣️", "9♣️", "10♣️", "J♣️", "Q♣️", "K♣️",
     ]
     # return deck of cards
+    
 
 def dealHand(currentDeck, numCards = 5):
     '''
