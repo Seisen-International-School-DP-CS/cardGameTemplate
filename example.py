@@ -25,10 +25,11 @@ def newDeal():
         "A♣️", "2♣️", "3♣️", "4♣️", "5♣️", "6♣️", "7♣️", "8♣️", "9♣️", "10♣️", "J♣️", "Q♣️", "K♣️",
     ]
     # ADD CODE HERE
+    dealHand(deck)
     return deck
 
 
-def dealHand(currentDeck, numCards = 5):
+def dealHand(deck, numCards = 5):
     '''
     This function will deal out a hand of cards for a play container.　for a person
     :param currentDeck: a list all cards currently left in the deck
@@ -39,10 +40,10 @@ def dealHand(currentDeck, numCards = 5):
     '''
     # ADD CODE HERE
 
-for x in range (0,numCards):
-    Removed = random.randint(0, len(deck))
-    Remove = deck - Removed
-    print(Remove)
+    for x in range (0, numCards-1):
+        Randomly = random.randint(0, len(deck))
+        deck.remove(deck[Randomly])
+        print(deck)
 
 def startGame(numPlayers = 2, numCards = 5):
     '''
@@ -62,13 +63,14 @@ def startGame(numPlayers = 2, numCards = 5):
        # if len(dealDeck) < cardsNeededtoDeal:
             # dealDeck = newDeal()
        # for playerNum in range(0, numPlayers+1):
+       # for playerNum in range(0, numPlayers+1):
            # for dealDeckNum in random.range():
                 # for cardForPlayer in range(0, numCards+1):
                     # playerDic.upda
        # yn = input("Would you like to deal again?: ")
        # if yn == no, then keepPlaying = False
     #
-
+newDeal()
 # ADD CODE HERE (Should be only 3 lines)
 numPlayers = int(input("How many players?: "))
-numCards = int(input("How many cards do you want?"))
+numCards = int(input("How many cards do you want? "))
