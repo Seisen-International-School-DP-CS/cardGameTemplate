@@ -27,6 +27,7 @@ def newDeal():
     # return deck of cards
     
 
+
 def dealHand(currentDeck, numCards = 5):
     '''
     This function will deal out a hand of cards for a player.
@@ -47,7 +48,18 @@ def startGame(numPlayers = 2, numCards = 5):
     :param numPlayers: the number of players in this card game
     :param numCards: the number of cards each player receives during each round
     '''
-   # ADD CODE HERE
+   # deck for (0:51)
+    def Reset(deck <= 51):
+   input("Is the game over?y/n");
+   while y,
+       input("Does the deck have 52 cards?y/n");
+        if n,
+            deck = Reset
+
+
+
+
+
 
 
 # ADD CODE HERE (Should be only 3 lines)
