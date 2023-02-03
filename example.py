@@ -47,14 +47,27 @@ for x in range (0,numCards):
 def startGame(numPlayers = 2, numCards = 5):
     '''
     This function runs a card game, dealing out cards to players each round and
-    reshuffling (refill by using the discarded card) the deck if
+    reshuffling (use newDeal()) the deck if
     there aren't enough cards left for all players that round.
     It asks whether the user wants to continue after each round, and ends when they are done (the user chooses to end).
     :param numPlayers: the number of players in this card game
     :param numCards: the number of cards each player receives during each round
     '''
    # ADD CODE HERE
-   #
+   # create playerDic = {p0: "", p1: "", p2...}
+   # dealDeck = []
+   # calculate how many cardsNeededtoDeal = numPlayer * numCards
+   # create a keepPlaying = True
+   # while keepPlaying == True:
+       # if len(dealDeck) < cardsNeededtoDeal:
+            # dealDeck = newDeal()
+       # for playerNum in range(0, numPlayers+1):
+           # for dealDeckNum in random.range():
+                # for cardForPlayer in range(0, numCards+1):
+                    # playerDic.upda
+       # yn = input("Would you like to deal again?: ")
+       # if yn == no, then keepPlaying = False
+    #
 
 # ADD CODE HERE (Should be only 3 lines)
 numPlayers = int(input("How many players?: "))
