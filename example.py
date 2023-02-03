@@ -12,7 +12,7 @@ a round, the deck is reshuffled before dealing cards that round.
 
 # Setup
 import random
-
+print()
 
 def newDeal():
     '''
