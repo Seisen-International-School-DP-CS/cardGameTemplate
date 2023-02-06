@@ -74,3 +74,18 @@ newDeal()
 # ADD CODE HERE (Should be only 3 lines)
 numPlayers = int(input("How many players?: "))
 numCards = int(input("How many cards do you want? "))
+startGame
+
+
+
+'''
+For Start Game:
+get new deck
+continue = True
+while continue 
+if len(deck) < play * numb cards
+new deck
+
+for i in range (0,numPlayers):
+hand = dealHand (#num cards)
+'''
